@@ -56,11 +56,11 @@ export default function AddRunner() {
           <VStack spacing={4} w="100%">
             <FormControl >
               <FormLabel>Name</FormLabel>
-              <Input rounded="md" type="text" name="name" onChange={handleChange} />
+              <Input rounded="md" type="text" name="name" onChange={handleChange} required/>
             </FormControl>
             <FormControl>
               <FormLabel>Speed</FormLabel>
-              <Input rounded="md" type="number"  name="speed" onChange={handleChange} />
+              <Input rounded="md" type="number"  name="speed" onChange={handleChange} required/>
             </FormControl>
             <FormControl >
               <FormLabel>Start Time</FormLabel>
